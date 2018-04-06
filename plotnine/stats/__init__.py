@@ -8,6 +8,7 @@ from .stat_boxplot import stat_boxplot
 from .stat_density import stat_density
 from .stat_density_2d import stat_density_2d
 from .stat_ecdf import stat_ecdf
+from .stat_ccdf import stat_ccdf
 from .stat_ellipse import stat_ellipse
 from .stat_function import stat_function
 from .stat_hull import stat_hull
@@ -27,6 +28,7 @@ __all__ = ['stat_count', 'stat_bin',
            'stat_bin_2d', 'stat_bin2d',
            'stat_bindot', 'stat_boxplot',
            'stat_density', 'stat_ecdf',
+           'stat_ccdf',
            'stat_ellipse', 'stat_density_2d',
            'stat_function', 'stat_hull',
            'stat_identity',
